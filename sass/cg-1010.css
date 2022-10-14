@@ -122,13 +122,13 @@
           animation: filter 2000ms infinite ease-in-out;
 }
 
-#myModal .modal-body {
+.modal .modal-body {
   position: relative;
   padding: 0px;
   overflow: inherit;
 }
 
-#myModal .modal-body .close {
+.modal .modal-body .close {
   position: absolute;
   right: -30px;
   top: 0;

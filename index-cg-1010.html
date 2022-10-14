@@ -46,6 +46,38 @@
 			  </div>
 			</div>
 		</div>
+		<!---Trailer-->
+		<div class="modal fade" id="trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl  modal-dialog-centered">
+			  <div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					  </button>
+					  <div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
+			   allowfullscreen></iframe>
+					 </div>	    
+				</div>
+			  </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		  </div><!-- /.modal -->
+		  <!---Trailer-->
+		  <div class="modal fade" id="nhanvatmoi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl  modal-dialog-centered">
+			  <div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					  </button>
+					  <div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
+			   allowfullscreen></iframe>
+					 </div>	    
+				</div>
+			  </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		  </div><!-- /.modal -->
 
 		<div id="layout" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 			<ul class="logotop px-5">
@@ -55,7 +87,7 @@
 			
 			
 			<div class="header" id="list-item-1">
-				<a href="#" class="btn-trailer"></a>
+				<a href="#" class="btn-trailer"  data-bs-toggle="modal" data-bs-target="#trailer"></a>
 				<div class="bg-onvideo">
 					<img src="images/bg-onvideo.png" alt=""/>
 				</div>
@@ -116,6 +148,7 @@
 							</ul>
 							<h4 class="mt-4"><img src="images/icon.png" class="me-2" alt=""/>Âu Dương Phong</h4>
 							<p>Âu Dương Phong là chủ nhân núi Bạch Đà ở Tây Vực, là một kẻ độc ác, nhiều mưu mô thủ đoạn. Với khả năng chế ra các loại thuốc độc không ai giải được, ông bị người trong giang hồ gọi là Lão Độc Vật. </p>
+							<p><img src="images/adp.jpg" class="d-block mw-100 mx-auto my-3"  alt="" /></p>
 							<ul>
 								<li>Hiệu ứng bị động: Bị trúng độc nhận hiệu ứng 2 giây miễn nhiễm <strong>Trúng độc</strong>. Nếu sở hữu bí tịch <strong>Cáp Mô Công</strong>, hiệu ứng bí tịch sẽ có tác dụng gấp đôi.</li>
 								<li>Hợp Kích: Lúc công kích có xác suất làm mục tiêu rơi vào trạng thái <strong>Trúng độc</strong>, mỗi giây nhận 100% sát thương.</li>
@@ -150,7 +183,7 @@
 						</div>
 					</div>
 					<div class="tab-pane fade show active" id="tmp" role="tabpanel" aria-labelledby="tmp-tab">
-						<a href="#" class="nutgiday"></a>
+						<a href="#" class="nutgiday"  data-bs-toggle="modal" data-bs-target="#nhanvatmoi"></a>
 						<img src="images/ct-tmp.jpg" alt="" class="mw-100 d-block px-0 py-4"/>
 					</div>
 					<div class="tab-pane fade" id="bitich" role="tabpanel" aria-labelledby="bitich-tab">
